@@ -30,13 +30,13 @@
                                 <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="NLJ-BK-yi3">
-                                <rect key="frame" x="82" y="291" width="173" height="30"/>
+                            <button opaque="NO" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="NLJ-BK-yi3">
+                                <rect key="frame" x="54" y="291" width="202" height="30"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="30" id="APV-Jv-loR"/>
                                     <constraint firstAttribute="width" constant="173" id="Dmp-Zl-PsV"/>
                                 </constraints>
-                                <state key="normal" title="Quiero una hamburguesa">
+                                <state key="normal" title="Quiero una hamburguesa!!!">
                                     <color key="titleColor" white="0.0" alpha="1" colorSpace="calibratedWhite"/>
                                     <color key="titleShadowColor" red="0.2983398438" green="0.5815429688" blue="0.70070929280000005" alpha="1" colorSpace="calibratedRGB"/>
                                 </state>
