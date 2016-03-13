@@ -19,7 +19,29 @@ class ViewController: UIViewController {
         super.didReceiveMemoryWarning()
         // Dispose of any resources that can be recreated.
     }
+    
+    let paises = ColeccionDePaises();
+    let hamburguesas = ColeccionDeHamburguesas();
+    let colores = Colores();
+    
+    
+    @IBOutlet weak var lblPais: UILabel!
 
-
+    @IBOutlet weak var lblHamburguesa: UILabel!
+    
+    
+    @IBAction func btnQuiero() {
+        
+        lblPais.text = paises.obtenPais()
+        lblHamburguesa.text = hamburguesas.obtenHamburguesa()
+        let colorFondo = colores.regresaColorAleatorio()
+        
+        view.backgroundColor = colorFondo
+        view.tintColor = colorFondo
+        
+        
+    }
+    
+    
 }
 
