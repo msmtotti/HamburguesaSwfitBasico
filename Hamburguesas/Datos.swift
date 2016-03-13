@@ -21,7 +21,11 @@ class ColeccionDePaises {
 }
 
 class ColeccionDeHamburguesas {
-    let hamburguesas:[String] = ["Hamburguesa Sensilla","Hamburguesa Doble","Hamburguesa con Queso","Hamburguesa doble con queso","Hamburguesa de pollo", "Hamburguesa Hawaina", "Hamburguesa Big", "Hamburguesa con papas", "Hamburguesa combo", "Hamburguesa con pepinillos", "Hamburguesa vegetariana", "Hamburguesa BBQ", "Hamburguesa de arrachera", "Hamburguesa ejecutiva", "Hamburguesa tragón", "Hamburguesa mata hambre", "Hamburguesa con pan integral", "Vegan Burguer", "Burguer rey", "Burguer rey doble", "Burguer del campo" ]
+    let hamburguesas:[String] = [
+        "Hamburguesa Sensilla","Hamburguesa Doble","Hamburguesa con Queso","Hamburguesa doble con queso","Hamburguesa de pollo",
+        "Hamburguesa Hawaina", "Hamburguesa Big", "Hamburguesa con papas", "Hamburguesa combo", "Hamburguesa con pepinillos",
+        "Hamburguesa vegetariana", "Hamburguesa BBQ", "Hamburguesa de arrachera", "Hamburguesa ejecutiva", "Hamburguesa tragón", "Hamburguesa mata hambre",
+        "Hamburguesa con pan integral", "Vegan Burguer", "Burguer rey", "Burguer rey doble", "Burguer del campo" ]
 
     
     func obtenHamburguesa()->String{
